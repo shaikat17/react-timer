@@ -9,6 +9,9 @@ const TimerApp = () => {
 
 
   return (
+    <div className='app'>
+    <h1 className="header">Happy New Year in</h1>
+    <div className="container">
     <div className="timer" role="timer">
       <div className="col-4">
         <div className="box">
@@ -34,6 +37,8 @@ const TimerApp = () => {
           <span className="text">Seconds</span>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   )
 }

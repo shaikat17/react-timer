@@ -1,3 +1,28 @@
+.app {
+    background-color: purple;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    font-size: calc(20px + 2vmin);
+    line-height: 2;
+    text-transform: capitalize;
+  }
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 .timer {
     background-color: rgba(255, 255, 255, 0.1);
     display: inline-block;

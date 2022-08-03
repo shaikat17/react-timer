@@ -7,9 +7,4 @@
 html,
 body {
   height: 100%;
-  background-color: purple;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  height: 100vh;
-  text-align: center;
 }
